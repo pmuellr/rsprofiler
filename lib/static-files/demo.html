@@ -1,0 +1,88 @@
+<!doctype html>
+
+<!-- Licensed under the Tumbolia Public License. See footer for details. -->
+
+<!-- ====================================================================== -->
+<html>
+
+<!-- ====================================================================== -->
+<head>
+<title>rsprofiler demop</title>
+<link rel=icon href="images/icon-32x32.png">
+<meta name="viewport" content="width=device-width" />
+<script src="/rsprofiler-target.js"></script>
+<!-- <script src="/socket.io/socket.io.js"></script> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+</head>
+
+<!-- ====================================================================== -->
+<body>
+<h1>rsprofiler demo</h1>
+
+<!-- ======================================================================= -->
+<button onclick="run()" style="font-size:200%;">run</button>
+
+<div id="div-1">
+   <span id="span-1" style="display:none">
+      text
+   </span>
+</div>
+
+<!-- ======================================================================= -->
+<pre id="output">
+</pre>
+​
+<script>
+//------------------------------------------------------------------------------
+function run() {
+    rsprofiler.start("jquery profile")
+    runTests()
+    rsprofiler.stop(function(err) {
+        var message = "profiler done"
+
+        if (err) message += "; error: " + err
+
+        alert(message)
+    })
+}
+
+//------------------------------------------------------------------------------
+function runTests() {
+    for (var i=0; i<40; i++) {
+        runTestsDiv1()
+        runTestsSpan1()
+    }
+}
+
+//------------------------------------------------------------------------------
+function runTestsDiv1() {
+    for (var i=0; i<1000; i++) {
+        $("#div-1").text()
+    }
+}
+
+//------------------------------------------------------------------------------
+function runTestsSpan1() {
+    for (var i=0; i<1000; i++) {
+        $("#span-1").text($("#span-1").text())
+    }
+}
+</script>
+</body>
+</html>
+
+<!--
+//-----------------------------------------------------------------------------
+// Copyright (c) 2012 Patrick Mueller
+// 
+// Tumbolia Public License
+// 
+// Copying and distribution of this file, with or without modification, are
+// permitted in any medium without royalty provided the copyright notice and this
+// notice are preserved.
+// 
+// TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+// 
+//   0. opan saurce LOL
+//-----------------------------------------------------------------------------
+->

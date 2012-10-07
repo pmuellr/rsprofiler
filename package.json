@@ -1,0 +1,40 @@
+{
+  "name":              "rsprofiler",
+  "description":       "Remote Script Profiler",
+  "author":            "pmuellr",
+  "version":           "0.1.0",
+  "tags":              [ "profiling"],
+  "licenses":
+    [
+      {
+        "type":        "Tumbolia Public License"
+      }
+    ],
+  "engines":
+    {
+      "node":          ">=0.8.0"
+    },
+  "directories":
+    {
+      "lib" :          "./lib"
+    },
+  "dependencies":
+    {
+      "express":       "3.x",
+      "nopt":          "2.x",
+      "socket.io":     "0.x"
+    },
+  "main" :             "./lib/rsprofiler.js",
+  "bin":
+    {
+      "rsprofiler":    "./lib/cli.js"
+    },
+  "homepage":          "https://github.com/pmuellr/rsprofiler",
+  "bugs":              "https://github.com/pmuellr/rsprofiler/issues",
+    
+  "repository": {
+    "type":            "git",
+    "url":             "git://github.com/pmuellr/rsprofiler"
+  }
+}
+

@@ -1,0 +1,20 @@
+rsprofiler - Remote Script Profiler
+
+rsprofiler is a web server that facilitates getting profiling
+data from mobile devices.  For more information, see:
+
+    https://github.com/pmuellr/rsprofiler
+
+usage:
+
+    rsprofiler <options> port
+
+port is a tcp/ip port to run the web server on.
+
+options are one of the following:
+
+    -h --help      print help
+    -v --verbose   run verbosely
+    --version      print the version
+
+Profile data will be stored in ~/.rsprofiler
