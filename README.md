@@ -21,13 +21,20 @@ install the rsprofiler server
     sudo npm -g install rsprofiler
 -->
 
-For now, git clone.
+For now, git clone this repo.
 
 run the rsprofiler server
 =========================
 
+If you've `npm -g` installed the package:
+
     rsprofiler --help # prints some help
     rsprofiler 3000   # starts a server  
+
+From the rsprofiler directory:
+
+    ./lib/cli.js 3000 # starts a server
+    make watch        # run server under node-supervisor on 3000
 
 
 use the rsprofiler server
@@ -35,15 +42,15 @@ use the rsprofiler server
 
 The rsprofiler server does a few different things.
 
-include `rsprofiler-target.js` in your web page
------------------------------------------------
+serves up `rsprofiler-target.js` for your to-be-profiled page
+-------------------------------------------------------------
 
     <script src="http://example.com:port/rsprofiler-target.js"></script>
 
 This script exposes the `rsprofiler` global variable.  See API below.
 
-browse profiles
----------------
+serves up profile browser
+-------------------------
 
 Head over to <a href="http://localhost:port/">http://localhost:port/</a> to 
 browse through captured profiles.
