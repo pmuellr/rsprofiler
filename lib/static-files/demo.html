@@ -7,7 +7,7 @@
 
 <!-- ====================================================================== -->
 <head>
-<title>rsprofiler demop</title>
+<title>rsprofiler demo</title>
 <link rel=icon       href="images/icon-32x32.png">
 <link rel=stylesheet href="css/demo.css">
 <meta name="viewport" content="width=device-width" />
@@ -22,17 +22,21 @@
 
 <h1>rsprofiler demo</h1>
 
-<!-- ======================================================================= -->
-<button id="button-run" onclick="run()">run</button>
+<p>Before clicking the run button below, make sure you bring up Web Inspector 
+on your platform.  Note that this demo only does something useful works in the 
+most recent Safari browsers (including Mobile Safari on iOS&nbsp;6).
+
+<p><button id="button-run" onclick="run()">run</button>
 
 <p>After clicking run, some code will be run with profiling on.  A message
 will appear underneath this text when the test is complete.  After the test
-is complete, go back to the previous page to see the profiling results.
+is complete, go back to the 
+<a href="/">main page</a> to see the profiling results.
 
-<p>If the "run" buttons goes from active back to normal state, indicating the tests
-are done, but there's no message to that effect under this text, then you may have
-forgotten to bring up web inspector.  You <b>NEED</b> to be running Web Inspector
-in the page you are profiling for this to work.
+<p>If the "run" buttons goes from active back to normal state, indicating the
+tests are done, but there's no message to that effect under this text, then
+you may have forgotten to bring up web inspector.  You <b>NEED</b> to be
+running Web Inspector in the page you are profiling for this to work.
 
 <div id="div-1">
    <span id="span-1" style="display:none">
@@ -84,7 +88,7 @@ function runTestsSpan1() {
 </html>
 
 <!--
-//-----------------------------------------------------------------------------
+//==============================================================================
 // Copyright (c) 2012 Patrick Mueller
 // 
 // Tumbolia Public License
@@ -96,5 +100,5 @@ function runTestsSpan1() {
 // TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
 // 
 //   0. opan saurce LOL
-//-----------------------------------------------------------------------------
+//==============================================================================
 ->

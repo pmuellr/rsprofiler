@@ -1,10 +1,11 @@
 # Licensed under the Tumbolia Public License. See footer for details.
 
-.PHONY: vendor
+.PHONY: vendor watch help
 
 #------------------------------------------------------------------------------
-NODE_SRC = lib/*.js
+main: help
 
+#------------------------------------------------------------------------------
 watch:
 	node_modules/.bin/node-supervisor -w lib -n error -- lib/cli.js 3000
 
@@ -27,6 +28,12 @@ vendor:
 	curl --output vendor/jquery.js     --progress-bar $(URL_JQUERY)
 	curl --output vendor/d3.v2.min.js  --progress-bar $(URL_D3_MIN)
 	curl --output vendor/d3.v2.js      --progress-bar $(URL_D3)
+
+#------------------------------------------------------------------------------
+help:
+	@echo "This Makefile supports the following targets:"
+	@echo "   watch  -  run the server under node-supervisor watching lib"
+	@echo "   vendor -  get the vendor files"
 
 #------------------------------------------------------------------------------
 # Copyright (c) 2012 Patrick Mueller

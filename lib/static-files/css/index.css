@@ -33,6 +33,36 @@ body {
     cursor:           pointer;
 }
 
+/* from the d3 partition example: http://mbostock.github.com/d3/talk/20111018/partition.html */
+
+.chart {
+  display: block;
+  margin: auto;
+  margin-top: 60px;
+  font-size: 11px;
+}
+
+rect {
+  stroke: #eee;
+  fill: #aaa;
+  fill-opacity: .8;
+}
+
+rect.parent {
+  cursor: pointer;
+  fill: orange;
+}
+
+rect.invisible {
+  cursor: pointer;
+  fill-opacity: 0;
+  stroke-opacity: 0;
+}
+
+text {
+  pointer-events: none;
+}
+
 /*
 //-----------------------------------------------------------------------------
 // Copyright (c) 2012 Patrick Mueller

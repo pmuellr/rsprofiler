@@ -54,6 +54,12 @@ the `rsprofiler` global variable
 
 This variable has the following properties:
 
+`supported`
+---------
+
+Contains a boolean value, indicating whether or not rsprofiler is
+supported in this browser.  
+
 
 `start(<name>)`
 ---------
