@@ -50,7 +50,7 @@ rect {
 
 rect.parent {
   cursor: pointer;
-  fill: orange;
+  fill: darkorange;
 }
 
 rect.invisible {
