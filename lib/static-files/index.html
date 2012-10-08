@@ -9,20 +9,29 @@
 <head>
 <meta name="viewport" content="width=device-width" />
 <title>rsprofiler - Remote Script Profiler</title>
-<link rel=icon href="images/icon-32x32.png">
-<script src="rsprofiler-client.js"></script>
+<link rel=icon       href="images/icon-32x32.png">
+<link rel=stylesheet href="css/index.css">
+<script src="jquery.js"></script>
+<script src="d3.v2.js"></script>
+<script src="js/rsprofiler-client.js"></script>
 </head>
 
 <!-- ====================================================================== -->
 <body>
+
+<a href="https://github.com/pmuellr/rsprofiler"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
+
 <h1>rsprofiler - Remote Script Profiler</h1>
 
 <p>Run the <a href="demo.html">demo</a>!
 
-<h2>Profiles
+<div id="profiles-chart">
+</div>
 
-<ul id="profiles-list">
-</ul>
+<h2>Profiles</h2>
+
+<table id="profiles-table">
+</table>
 
 </body>
 

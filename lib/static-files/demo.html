@@ -8,19 +8,31 @@
 <!-- ====================================================================== -->
 <head>
 <title>rsprofiler demop</title>
-<link rel=icon href="images/icon-32x32.png">
+<link rel=icon       href="images/icon-32x32.png">
+<link rel=stylesheet href="css/demo.css">
 <meta name="viewport" content="width=device-width" />
-<script src="/rsprofiler-target.js"></script>
-<!-- <script src="/socket.io/socket.io.js"></script> -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="jquery.js"></script>
+<script src="d3.v2.js"></script>
+<script src="js/rsprofiler-target.js"></script>
 </head>
 
 <!-- ====================================================================== -->
 <body>
+<a href="https://github.com/pmuellr/rsprofiler"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
+
 <h1>rsprofiler demo</h1>
 
 <!-- ======================================================================= -->
-<button onclick="run()" style="font-size:200%;">run</button>
+<button id="button-run" onclick="run()">run</button>
+
+<p>After clicking run, some code will be run with profiling on.  A message
+will appear underneath this text when the test is complete.  After the test
+is complete, go back to the previous page to see the profiling results.
+
+<p>If the "run" buttons goes from active back to normal state, indicating the tests
+are done, but there's no message to that effect under this text, then you may have
+forgotten to bring up web inspector.  You <b>NEED</b> to be running Web Inspector
+in the page you are profiling for this to work.
 
 <div id="div-1">
    <span id="span-1" style="display:none">
@@ -38,11 +50,11 @@ function run() {
     rsprofiler.start("jquery profile")
     runTests()
     rsprofiler.stop(function(err) {
-        var message = "profiler done"
+        var message = "profiler done at " + new Date()
 
         if (err) message += "; error: " + err
 
-        alert(message)
+        $("#output").text(message)
     })
 }
 

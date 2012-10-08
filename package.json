@@ -24,6 +24,10 @@
       "nopt":          "2.x",
       "socket.io":     "0.x"
     },
+  "devDependencies":
+    {
+      "supervisor":    "0.x"
+    },
   "main" :             "./lib/rsprofiler.js",
   "bin":
     {

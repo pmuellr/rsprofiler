@@ -14,12 +14,14 @@ chunk of data available in the `console.profiles` array.
 
 Now, what to do with it ...
 
-
 install the rsprofiler server
 =============================
 
+<!--
     sudo npm -g install rsprofiler
+-->
 
+For now, git clone.
 
 run the rsprofiler server
 =========================
@@ -101,5 +103,15 @@ TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
 attributions
 ============
 
-<p>The tilted stopwatch with green filling was adapted from StopWatch.
-<a href="http://thenounproject.com/noun/stopwatch/#icon-No938" target="_blank">Stopwatch</a> designed by <a href="http://thenounproject.com/iritein" target="_blank">Irit Barzily</a> from The Noun Project.
+The tilted stopwatch image with green filling was adapted from 
+[StopWatch][StopWatch] designed by [Irit Barzily][iritein] from The Noun Project.
+
+[StopWatch]: http://thenounproject.com/noun/stopwatch/#icon-No938
+[iritein]:   http://thenounproject.com/iritein
+
+The garbage can image was adapted from 
+[Trash Can][Trashcan] designed by [Chris Lee][sirleech] from The Noun Project.
+
+[Trashcan]: http://thenounproject.com/noun/trash-can/#icon-No3199
+[sirleech]: http://thenounproject.com/sirleech
+

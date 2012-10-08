@@ -1,0 +1,50 @@
+/* Licensed under the Tumbolia Public License. See footer for details. */
+
+body {
+    font-size: 150%;
+}
+
+/* ------------------------------------------------------------------------- */
+.trash-can {
+    background-image: url(../images/trash-can.svg);
+    background-size:  100% 100%;
+}
+
+/* ------------------------------------------------------------------------- */
+#profiles-table .trash-can {
+    width:  1em;
+    height: 1em;
+}
+
+/* ------------------------------------------------------------------------- */
+#profiles-table .trash-can:hover {
+    cursor: pointer;
+}
+
+/* ------------------------------------------------------------------------- */
+#profiles-table .profile-name {
+    color:           blue;
+    text-decoration: underline;
+}
+
+/* ------------------------------------------------------------------------- */
+#profiles-table .profile-name:hover {
+    background-color: #EEE;
+    cursor:           pointer;
+}
+
+/*
+//-----------------------------------------------------------------------------
+// Copyright (c) 2012 Patrick Mueller
+// 
+// Tumbolia Public License
+// 
+// Copying and distribution of this file, with or without modification, are
+// permitted in any medium without royalty provided the copyright notice and this
+// notice are preserved.
+// 
+// TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+// 
+//   0. opan saurce LOL
+//-----------------------------------------------------------------------------
+*/
