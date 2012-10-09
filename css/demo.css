@@ -1,0 +1,29 @@
+/* Licensed under the Tumbolia Public License. See footer for details. */
+
+body {
+    font-size: 150%;
+}
+
+#button-run {
+    font-size: inherit;
+}
+
+#output {
+    color: #44F;
+}
+
+/*
+//-----------------------------------------------------------------------------
+// Copyright (c) 2012 Patrick Mueller
+// 
+// Tumbolia Public License
+// 
+// Copying and distribution of this file, with or without modification, are
+// permitted in any medium without royalty provided the copyright notice and this
+// notice are preserved.
+// 
+// TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+// 
+//   0. opan saurce LOL
+//-----------------------------------------------------------------------------
+*/

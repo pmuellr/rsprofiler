@@ -1,0 +1,604 @@
+{
+  "title": "jquery profile",
+  "head": {
+    "functionName": "Thread_1",
+    "totalTime": 2414.051025390625,
+    "lineNumber": 0,
+    "url": "",
+    "visible": true,
+    "numberOfCalls": 1,
+    "selfTime": 0,
+    "children": [
+      {
+        "functionName": "rsprofiler_start",
+        "totalTime": 1.35009765625,
+        "lineNumber": 26,
+        "url": "http://localhost:3000/js/rsprofiler-target.js",
+        "visible": true,
+        "numberOfCalls": 1,
+        "selfTime": 1.35009765625,
+        "children": [],
+        "callUID": 14026708
+      },
+      {
+        "functionName": "runTests",
+        "totalTime": 2412.55322265625,
+        "lineNumber": 66,
+        "url": "http://localhost:3000/demo.html",
+        "visible": true,
+        "numberOfCalls": 1,
+        "selfTime": 0.17626953125,
+        "children": [
+          {
+            "functionName": "runTestsDiv1",
+            "totalTime": 440.740966796875,
+            "lineNumber": 74,
+            "url": "http://localhost:3000/demo.html",
+            "visible": true,
+            "numberOfCalls": 40,
+            "selfTime": 14.615478515625,
+            "children": [
+              {
+                "functionName": "jQuery",
+                "totalTime": 173.047607421875,
+                "lineNumber": 42,
+                "url": "http://localhost:3000/jquery.js",
+                "visible": true,
+                "numberOfCalls": 40000,
+                "selfTime": 29.37060546875,
+                "children": [
+                  {
+                    "functionName": "init",
+                    "totalTime": 143.677001953125,
+                    "lineNumber": 97,
+                    "url": "http://localhost:3000/jquery.js",
+                    "visible": true,
+                    "numberOfCalls": 40000,
+                    "selfTime": 112.275146484375,
+                    "children": [
+                      {
+                        "functionName": "charAt",
+                        "totalTime": 6.4248046875,
+                        "lineNumber": 0,
+                        "url": "",
+                        "visible": true,
+                        "numberOfCalls": 40000,
+                        "selfTime": 6.4248046875,
+                        "children": [],
+                        "callUID": 2413092
+                      },
+                      {
+                        "functionName": "exec",
+                        "totalTime": 12.405517578125,
+                        "lineNumber": 0,
+                        "url": "",
+                        "visible": true,
+                        "numberOfCalls": 40000,
+                        "selfTime": 12.405517578125,
+                        "children": [],
+                        "callUID": 6627791
+                      },
+                      {
+                        "functionName": "getElementById",
+                        "totalTime": 12.571533203125,
+                        "lineNumber": 0,
+                        "url": "",
+                        "visible": true,
+                        "numberOfCalls": 40000,
+                        "selfTime": 12.571533203125,
+                        "children": [],
+                        "callUID": 8857105
+                      }
+                    ],
+                    "callUID": 7668431
+                  }
+                ],
+                "callUID": 8187285
+              },
+              {
+                "functionName": "text",
+                "totalTime": 253.077880859375,
+                "lineNumber": 5690,
+                "url": "http://localhost:3000/jquery.js",
+                "visible": true,
+                "numberOfCalls": 40000,
+                "selfTime": 51.554931640625,
+                "children": [
+                  {
+                    "functionName": "access",
+                    "totalTime": 201.52294921875,
+                    "lineNumber": 786,
+                    "url": "http://localhost:3000/jquery.js",
+                    "visible": true,
+                    "numberOfCalls": 40000,
+                    "selfTime": 50.2197265625,
+                    "children": [
+                      {
+                        "functionName": "(anonymous function)",
+                        "totalTime": 151.30322265625,
+                        "lineNumber": 5691,
+                        "url": "http://localhost:3000/jquery.js",
+                        "visible": true,
+                        "numberOfCalls": 40000,
+                        "selfTime": 29.839111328125,
+                        "children": [
+                          {
+                            "functionName": "getText",
+                            "totalTime": 121.464111328125,
+                            "lineNumber": 3991,
+                            "url": "http://localhost:3000/jquery.js",
+                            "visible": true,
+                            "numberOfCalls": 40000,
+                            "selfTime": 54.08544921875,
+                            "children": [
+                              {
+                                "functionName": "getText",
+                                "totalTime": 67.378662109375,
+                                "lineNumber": 3991,
+                                "url": "http://localhost:3000/jquery.js",
+                                "visible": true,
+                                "numberOfCalls": 40000,
+                                "selfTime": 67.378662109375,
+                                "children": [],
+                                "callUID": 14209244
+                              }
+                            ],
+                            "callUID": 14209244
+                          }
+                        ],
+                        "callUID": 9097468
+                      }
+                    ],
+                    "callUID": 15093884
+                  }
+                ],
+                "callUID": 7660395
+              }
+            ],
+            "callUID": 4840049
+          },
+          {
+            "functionName": "runTestsSpan1",
+            "totalTime": 1971.635986328125,
+            "lineNumber": 81,
+            "url": "http://localhost:3000/demo.html",
+            "visible": true,
+            "numberOfCalls": 40,
+            "selfTime": 27.959716796875,
+            "children": [
+              {
+                "functionName": "jQuery",
+                "totalTime": 402.211669921875,
+                "lineNumber": 42,
+                "url": "http://localhost:3000/jquery.js",
+                "visible": true,
+                "numberOfCalls": 80000,
+                "selfTime": 67.046630859375,
+                "children": [
+                  {
+                    "functionName": "init",
+                    "totalTime": 335.1650390625,
+                    "lineNumber": 97,
+                    "url": "http://localhost:3000/jquery.js",
+                    "visible": true,
+                    "numberOfCalls": 80000,
+                    "selfTime": 259.3134765625,
+                    "children": [
+                      {
+                        "functionName": "charAt",
+                        "totalTime": 12.38330078125,
+                        "lineNumber": 0,
+                        "url": "",
+                        "visible": true,
+                        "numberOfCalls": 80000,
+                        "selfTime": 12.38330078125,
+                        "children": [],
+                        "callUID": 2413092
+                      },
+                      {
+                        "functionName": "exec",
+                        "totalTime": 30.867919921875,
+                        "lineNumber": 0,
+                        "url": "",
+                        "visible": true,
+                        "numberOfCalls": 80000,
+                        "selfTime": 30.867919921875,
+                        "children": [],
+                        "callUID": 6627791
+                      },
+                      {
+                        "functionName": "getElementById",
+                        "totalTime": 32.600341796875,
+                        "lineNumber": 0,
+                        "url": "",
+                        "visible": true,
+                        "numberOfCalls": 80000,
+                        "selfTime": 32.600341796875,
+                        "children": [],
+                        "callUID": 8857105
+                      }
+                    ],
+                    "callUID": 7668431
+                  }
+                ],
+                "callUID": 8187285
+              },
+              {
+                "functionName": "text",
+                "totalTime": 1541.464599609375,
+                "lineNumber": 5690,
+                "url": "http://localhost:3000/jquery.js",
+                "visible": true,
+                "numberOfCalls": 80000,
+                "selfTime": 70.393310546875,
+                "children": [
+                  {
+                    "functionName": "access",
+                    "totalTime": 1471.0712890625,
+                    "lineNumber": 786,
+                    "url": "http://localhost:3000/jquery.js",
+                    "visible": true,
+                    "numberOfCalls": 80000,
+                    "selfTime": 110.85595703125,
+                    "children": [
+                      {
+                        "functionName": "(anonymous function)",
+                        "totalTime": 1271.84423828125,
+                        "lineNumber": 5691,
+                        "url": "http://localhost:3000/jquery.js",
+                        "visible": true,
+                        "numberOfCalls": 80000,
+                        "selfTime": 100.11865234375,
+                        "children": [
+                          {
+                            "functionName": "getText",
+                            "totalTime": 107.830810546875,
+                            "lineNumber": 3991,
+                            "url": "http://localhost:3000/jquery.js",
+                            "visible": true,
+                            "numberOfCalls": 40000,
+                            "selfTime": 56.045166015625,
+                            "children": [
+                              {
+                                "functionName": "getText",
+                                "totalTime": 51.78564453125,
+                                "lineNumber": 3991,
+                                "url": "http://localhost:3000/jquery.js",
+                                "visible": true,
+                                "numberOfCalls": 40000,
+                                "selfTime": 51.78564453125,
+                                "children": [],
+                                "callUID": 14209244
+                              }
+                            ],
+                            "callUID": 14209244
+                          },
+                          {
+                            "functionName": "empty",
+                            "totalTime": 225.937744140625,
+                            "lineNumber": 5826,
+                            "url": "http://localhost:3000/jquery.js",
+                            "visible": true,
+                            "numberOfCalls": 40000,
+                            "selfTime": 84.267333984375,
+                            "children": [
+                              {
+                                "functionName": "getElementsByTagName",
+                                "totalTime": 20.435791015625,
+                                "lineNumber": 0,
+                                "url": "",
+                                "visible": true,
+                                "numberOfCalls": 40000,
+                                "selfTime": 20.435791015625,
+                                "children": [],
+                                "callUID": 8072532
+                              },
+                              {
+                                "functionName": "cleanData",
+                                "totalTime": 64.1943359375,
+                                "lineNumber": 6409,
+                                "url": "http://localhost:3000/jquery.js",
+                                "visible": true,
+                                "numberOfCalls": 40000,
+                                "selfTime": 64.1943359375,
+                                "children": [],
+                                "callUID": 12926862
+                              },
+                              {
+                                "functionName": "removeChild",
+                                "totalTime": 57.040283203125,
+                                "lineNumber": 0,
+                                "url": "",
+                                "visible": true,
+                                "numberOfCalls": 40000,
+                                "selfTime": 57.040283203125,
+                                "children": [],
+                                "callUID": 10247104
+                              }
+                            ],
+                            "callUID": 662221
+                          },
+                          {
+                            "functionName": "createTextNode",
+                            "totalTime": 21.9970703125,
+                            "lineNumber": 0,
+                            "url": "",
+                            "visible": true,
+                            "numberOfCalls": 40000,
+                            "selfTime": 21.9970703125,
+                            "children": [],
+                            "callUID": 10013799
+                          },
+                          {
+                            "functionName": "append",
+                            "totalTime": 815.9599609375,
+                            "lineNumber": 5763,
+                            "url": "http://localhost:3000/jquery.js",
+                            "visible": true,
+                            "numberOfCalls": 40000,
+                            "selfTime": 45.388671875,
+                            "children": [
+                              {
+                                "functionName": "domManip",
+                                "totalTime": 770.5712890625,
+                                "lineNumber": 5934,
+                                "url": "http://localhost:3000/jquery.js",
+                                "visible": true,
+                                "numberOfCalls": 40000,
+                                "selfTime": 171.574951171875,
+                                "children": [
+                                  {
+                                    "functionName": "concat",
+                                    "totalTime": 19.3037109375,
+                                    "lineNumber": 0,
+                                    "url": "",
+                                    "visible": true,
+                                    "numberOfCalls": 40000,
+                                    "selfTime": 19.3037109375,
+                                    "children": [],
+                                    "callUID": 9796519
+                                  },
+                                  {
+                                    "functionName": "isFunction",
+                                    "totalTime": 70.07861328125,
+                                    "lineNumber": 417,
+                                    "url": "http://localhost:3000/jquery.js",
+                                    "visible": true,
+                                    "numberOfCalls": 40000,
+                                    "selfTime": 28.16162109375,
+                                    "children": [
+                                      {
+                                        "functionName": "type",
+                                        "totalTime": 41.9169921875,
+                                        "lineNumber": 433,
+                                        "url": "http://localhost:3000/jquery.js",
+                                        "visible": true,
+                                        "numberOfCalls": 40000,
+                                        "selfTime": 35.91552734375,
+                                        "children": [
+                                          {
+                                            "functionName": "toString",
+                                            "totalTime": 6.00146484375,
+                                            "lineNumber": 0,
+                                            "url": "",
+                                            "visible": true,
+                                            "numberOfCalls": 40000,
+                                            "selfTime": 6.00146484375,
+                                            "children": [],
+                                            "callUID": 4839263
+                                          }
+                                        ],
+                                        "callUID": 11488628
+                                      }
+                                    ],
+                                    "callUID": 5618333
+                                  },
+                                  {
+                                    "functionName": "buildFragment",
+                                    "totalTime": 332.51953125,
+                                    "lineNumber": 6122,
+                                    "url": "http://localhost:3000/jquery.js",
+                                    "visible": true,
+                                    "numberOfCalls": 40000,
+                                    "selfTime": 75.74072265625,
+                                    "children": [
+                                      {
+                                        "functionName": "createDocumentFragment",
+                                        "totalTime": 22.77392578125,
+                                        "lineNumber": 0,
+                                        "url": "",
+                                        "visible": true,
+                                        "numberOfCalls": 40000,
+                                        "selfTime": 22.77392578125,
+                                        "children": [],
+                                        "callUID": 2714914
+                                      },
+                                      {
+                                        "functionName": "clean",
+                                        "totalTime": 234.0048828125,
+                                        "lineNumber": 6275,
+                                        "url": "http://localhost:3000/jquery.js",
+                                        "visible": true,
+                                        "numberOfCalls": 40000,
+                                        "selfTime": 123.83349609375,
+                                        "children": [
+                                          {
+                                            "functionName": "push",
+                                            "totalTime": 8.02978515625,
+                                            "lineNumber": 0,
+                                            "url": "",
+                                            "visible": true,
+                                            "numberOfCalls": 40000,
+                                            "selfTime": 8.02978515625,
+                                            "children": [],
+                                            "callUID": 11024656
+                                          },
+                                          {
+                                            "functionName": "nodeName",
+                                            "totalTime": 64.573974609375,
+                                            "lineNumber": 575,
+                                            "url": "http://localhost:3000/jquery.js",
+                                            "visible": true,
+                                            "numberOfCalls": 40000,
+                                            "selfTime": 50.419921875,
+                                            "children": [
+                                              {
+                                                "functionName": "toLowerCase",
+                                                "totalTime": 14.154052734375,
+                                                "lineNumber": 0,
+                                                "url": "",
+                                                "visible": true,
+                                                "numberOfCalls": 80000,
+                                                "selfTime": 14.154052734375,
+                                                "children": [],
+                                                "callUID": 2406532
+                                              }
+                                            ],
+                                            "callUID": 13053613
+                                          },
+                                          {
+                                            "functionName": "appendChild",
+                                            "totalTime": 37.567626953125,
+                                            "lineNumber": 0,
+                                            "url": "",
+                                            "visible": true,
+                                            "numberOfCalls": 40000,
+                                            "selfTime": 37.567626953125,
+                                            "children": [],
+                                            "callUID": 15475201
+                                          }
+                                        ],
+                                        "callUID": 9251916
+                                      }
+                                    ],
+                                    "callUID": 12783635
+                                  },
+                                  {
+                                    "functionName": "nodeName",
+                                    "totalTime": 56.291259765625,
+                                    "lineNumber": 575,
+                                    "url": "http://localhost:3000/jquery.js",
+                                    "visible": true,
+                                    "numberOfCalls": 40000,
+                                    "selfTime": 43.67431640625,
+                                    "children": [
+                                      {
+                                        "functionName": "toLowerCase",
+                                        "totalTime": 12.616943359375,
+                                        "lineNumber": 0,
+                                        "url": "",
+                                        "visible": true,
+                                        "numberOfCalls": 80000,
+                                        "selfTime": 12.616943359375,
+                                        "children": [],
+                                        "callUID": 2406532
+                                      }
+                                    ],
+                                    "callUID": 13053613
+                                  },
+                                  {
+                                    "functionName": "(anonymous function)",
+                                    "totalTime": 120.80322265625,
+                                    "lineNumber": 5764,
+                                    "url": "http://localhost:3000/jquery.js",
+                                    "visible": true,
+                                    "numberOfCalls": 40000,
+                                    "selfTime": 53.396484375,
+                                    "children": [
+                                      {
+                                        "functionName": "appendChild",
+                                        "totalTime": 67.40673828125,
+                                        "lineNumber": 0,
+                                        "url": "",
+                                        "visible": true,
+                                        "numberOfCalls": 40000,
+                                        "selfTime": 67.40673828125,
+                                        "children": [],
+                                        "callUID": 15475201
+                                      }
+                                    ],
+                                    "callUID": 6299906
+                                  }
+                                ],
+                                "callUID": 7936599
+                              }
+                            ],
+                            "callUID": 2422694
+                          }
+                        ],
+                        "callUID": 9097468
+                      },
+                      {
+                        "functionName": "isFunction",
+                        "totalTime": 88.37109375,
+                        "lineNumber": 417,
+                        "url": "http://localhost:3000/jquery.js",
+                        "visible": true,
+                        "numberOfCalls": 40000,
+                        "selfTime": 41.572509765625,
+                        "children": [
+                          {
+                            "functionName": "type",
+                            "totalTime": 46.798583984375,
+                            "lineNumber": 433,
+                            "url": "http://localhost:3000/jquery.js",
+                            "visible": true,
+                            "numberOfCalls": 40000,
+                            "selfTime": 36.318115234375,
+                            "children": [
+                              {
+                                "functionName": "toString",
+                                "totalTime": 10.48046875,
+                                "lineNumber": 0,
+                                "url": "",
+                                "visible": true,
+                                "numberOfCalls": 40000,
+                                "selfTime": 10.48046875,
+                                "children": [],
+                                "callUID": 4839263
+                              }
+                            ],
+                            "callUID": 11488628
+                          }
+                        ],
+                        "callUID": 5618333
+                      }
+                    ],
+                    "callUID": 15093884
+                  }
+                ],
+                "callUID": 7660395
+              }
+            ],
+            "callUID": 2544337
+          }
+        ],
+        "callUID": 4707437
+      },
+      {
+        "functionName": "rsprofiler_stop",
+        "totalTime": 0.14013671875,
+        "lineNumber": 40,
+        "url": "http://localhost:3000/js/rsprofiler-target.js",
+        "visible": true,
+        "numberOfCalls": 1,
+        "selfTime": 0.14013671875,
+        "children": [],
+        "callUID": 6720967
+      },
+      {
+        "functionName": "(idle)",
+        "totalTime": 0.007568359375,
+        "lineNumber": 0,
+        "url": "",
+        "visible": true,
+        "numberOfCalls": 0,
+        "selfTime": 0.007568359375,
+        "children": [],
+        "callUID": 7172175
+      }
+    ],
+    "callUID": 1093970
+  },
+  "uid": 7
+}
