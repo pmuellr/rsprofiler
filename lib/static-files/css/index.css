@@ -44,7 +44,7 @@ body {
 }
 
 rect {
-  stroke:             #eee;
+  stroke:             #000;
   fill:               #aaa;
   fill-opacity:       .8;
 }

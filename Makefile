@@ -1,9 +1,23 @@
 # Licensed under the Tumbolia Public License. See footer for details.
 
-.PHONY: vendor watch help
+.PHONY: vendor watch help static-demo
 
 #------------------------------------------------------------------------------
 main: help
+
+#------------------------------------------------------------------------------
+static-demo:
+	mkdir -p tmp
+	rm -rf tmp/static-demo
+	mkdir  tmp/static-demo
+
+	cp -R lib/static-files/* tmp/static-demo
+	cp -R vendor/*           tmp/static-demo
+
+	mkdir tmp/static-demo/profiles
+	cp ~/.rsprofiler/*.json tmp/static-demo/profiles
+	curl http://localhost:3000/profiles > tmp/static-demo/profiles/index.json
+
 
 #------------------------------------------------------------------------------
 watch:
@@ -32,19 +46,20 @@ vendor:
 #------------------------------------------------------------------------------
 help:
 	@echo "This Makefile supports the following targets:"
-	@echo "   watch  -  run the server under node-supervisor watching lib"
-	@echo "   vendor -  get the vendor files"
+	@echo "   watch       -  run the server under node-supervisor watching lib"
+	@echo "   vendor      -  get the vendor files"
+	@echo "   static-demo -  create a static demo in the tmp directory"
 
 #------------------------------------------------------------------------------
 # Copyright (c) 2012 Patrick Mueller
-# 
+#
 # Tumbolia Public License
-# 
+#
 # Copying and distribution of this file, with or without modification, are
 # permitted in any medium without royalty provided the copyright notice and this
 # notice are preserved.
-# 
+#
 # TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
-# 
+#
 #   0. opan saurce LOL
 #------------------------------------------------------------------------------
