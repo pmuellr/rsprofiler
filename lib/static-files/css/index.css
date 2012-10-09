@@ -1,30 +1,31 @@
 /* Licensed under the Tumbolia Public License. See footer for details. */
 
 body {
-    font-size: 150%;
+    font-size:        150%;
 }
 
 /* ------------------------------------------------------------------------- */
 .trash-can {
-    background-image: url(../images/trash-can.svg);
+    background-image: url(../images/iconmonstr-x-mark-3-icon.svg);
     background-size:  100% 100%;
 }
 
 /* ------------------------------------------------------------------------- */
 #profiles-table .trash-can {
-    width:  1em;
-    height: 1em;
+    width:            1em;
+    height:           1em;
+    margin-left:      1em;
 }
 
 /* ------------------------------------------------------------------------- */
 #profiles-table .trash-can:hover {
-    cursor: pointer;
+    cursor:           pointer;
 }
 
 /* ------------------------------------------------------------------------- */
 #profiles-table .profile-name {
-    color:           blue;
-    text-decoration: underline;
+    color:            blue;
+    text-decoration:  underline;
 }
 
 /* ------------------------------------------------------------------------- */
@@ -36,45 +37,45 @@ body {
 /* from the d3 partition example: http://mbostock.github.com/d3/talk/20111018/partition.html */
 
 .chart {
-  display: block;
-  margin: auto;
-  margin-top: 60px;
-  font-size: 11px;
+  display:            block;
+  margin:             auto;
+  margin-top:         60px;
+  font-size:          11px;
 }
 
 rect {
-  stroke: #eee;
-  fill: #aaa;
-  fill-opacity: .8;
+  stroke:             #eee;
+  fill:               #aaa;
+  fill-opacity:       .8;
 }
 
 rect.parent {
-  cursor: pointer;
-  fill: darkorange;
+  cursor:             pointer;
+  fill:               orangered;
 }
 
 rect.invisible {
-  cursor: pointer;
-  fill-opacity: 0;
-  stroke-opacity: 0;
+  cursor:             pointer;
+  fill-opacity:       0;
+  stroke-opacity:     0;
 }
 
 text {
-  pointer-events: none;
+  pointer-events:     none;
 }
 
 /*
 //-----------------------------------------------------------------------------
 // Copyright (c) 2012 Patrick Mueller
-// 
+//
 // Tumbolia Public License
-// 
+//
 // Copying and distribution of this file, with or without modification, are
 // permitted in any medium without royalty provided the copyright notice and this
 // notice are preserved.
-// 
+//
 // TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
-// 
+//
 //   0. opan saurce LOL
 //-----------------------------------------------------------------------------
 */
