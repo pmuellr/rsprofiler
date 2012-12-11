@@ -1,6 +1,9 @@
 rsprofiler - Remote Script Profiler
 ===================================
 
+[⎙ View a demo of rsprofiler in action](https://www.youtube.com/watch?v=ZbpS9QYbGvw)
+-----------------------------------
+
 Turns out you can use the following little fragment in
 JavaScript in the iOS 6 to generate profiling data,
 **if you connect to remote web inspector FIRST**:
